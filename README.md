@@ -37,3 +37,4 @@ puts "Third Man Status: #{transaction['t3maction']} (#{transaction['t3mscore']})
 ## Todo
 
 - Tests
+- Documentation
