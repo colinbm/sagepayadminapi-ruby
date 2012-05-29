@@ -4,7 +4,7 @@ require File.expand_path('../lib/sagepayadminapi', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Colin Burn-Murdoch"]
   gem.email         = ["colin@burn-murdoch.com"]
-  gem.description   = "Ruby interface to the SagePay Admin & Rporting API"
+  gem.description   = "Ruby interface to the SagePay Admin & Reporting API"
   gem.summary       = "SagePay Admin & Reporting API"
   gem.homepage      = "http://github.com/colinbm/sagepayadminapi-ruby"
 
