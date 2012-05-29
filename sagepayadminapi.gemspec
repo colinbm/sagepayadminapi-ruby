@@ -1,17 +1,18 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/sagepayadminapi/version', __FILE__)
+require File.expand_path('../lib/sagepayadminapi', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Colin Burn-Murdoch"]
   gem.email         = ["colin@burn-murdoch.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = "Ruby interface to the SagePay Admin & Rporting API"
+  gem.summary       = "SagePay Admin & Reporting API"
+  gem.homepage      = "http://github.com/colinbm/sagepayadminapi-ruby"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "sagepayadminapi"
   gem.require_paths = ["lib"]
-  gem.version       = Sagepayadminapi::VERSION
+  gem.version       = SagePayAdminAPI::VERSION
+  gem.add_dependency 'xml-simple'
 end
