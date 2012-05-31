@@ -1,5 +1,3 @@
-require_relative "./sagepayadminapi/version"
-
 class SagePayAdminAPI
   
   VERSION = '0.0.2'
