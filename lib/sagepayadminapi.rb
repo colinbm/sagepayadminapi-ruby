@@ -2,7 +2,7 @@ require_relative "./sagepayadminapi/version"
 
 class SagePayAdminAPI
   
-  VERSION = '0.0.1'
+  VERSION = '0.0.2'
   
   def initialize(vendor, username, password, live=true, sslverify=true)
     @vendor    = vendor
