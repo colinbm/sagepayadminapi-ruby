@@ -1,6 +1,6 @@
 # SagePay Admin & Reporting API for Ruby
 
-This is a port of [the PHP version](https://github.com/colinbm/sagepay-php). Mainly written to play with making a gem.
+This is a port of [the PHP version](https://github.com/colinbm/sagepayadminapi-php). Mainly written to play with making a gem.
 
 ## Installation
 
